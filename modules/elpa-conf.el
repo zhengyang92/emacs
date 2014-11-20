@@ -8,6 +8,10 @@
 (unless (package-installed-p 'sbt-mode)
   (package-refresh-contents) (package-install 'sbt-mode))
 
+;;scala-mode
+(unless (package-installed-p 'scala-mode)
+  (package-refresh-contents) (package-install 'scala-mode))
+
 ;;color-theme
 (unless (package-installed-p 'color-theme)
   (package-refresh-contents) (package-install 'color-theme))
@@ -40,6 +44,7 @@
 (unless (package-installed-p 'exec-path-from-shell)
   (package-refresh-contents) (package-install 'exec-path-from-shell))
 
+;;slime
 (unless (package-installed-p 'slime)
   (package-refresh-contents) (package-install 'slime))
 

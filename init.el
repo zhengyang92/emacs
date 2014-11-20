@@ -6,9 +6,10 @@
 (require 'orgmode-conf)
 (require 'markdown-mode-conf)
 (require 'erc-conf)
+
 (require 'lisp-mode-conf)
-;(require 'auxtex-conf)
 (require 'c-mode-conf)
+(require 'scala-conf)
 (require 'key-bindings-conf)
 
 (provide 'init)

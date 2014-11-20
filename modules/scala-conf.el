@@ -1,0 +1,1 @@
+(provide 'scala-conf)
