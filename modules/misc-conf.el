@@ -17,14 +17,12 @@
 ;;(add-hook 'text-mode-hook 'turn-on-auto-fill)
 
 (global-linum-mode 1)
-(setq linum-format "%4d")
+(setq linum-format "%5d")
 
 
-;;yasnippet 
-(add-to-list 'load-path "~/.emacs.d/extends/yasnippet/")
-(require 'yasnippet-bundle)
-(yas/initialize)
-;;(yas/load-directory "~/.emacs.d/extends/yasnippet/snippets/")
+;;yasnippet
+(require 'yasnippet)
+(yas-global-mode 1)
 
 ;;cursor-type
 (setq-default cursor-type 'bar)
@@ -34,7 +32,9 @@
 
 ;;disable scroll bar
 (scroll-bar-mode -1)
-;;(tool-bar-mode -1)
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+
 
 ;;disable emacs startup message
 (setq inhibit-startup-message t)
@@ -42,7 +42,7 @@
 ;;turn all yes-or-no into y-or-n
 (fset 'yes-or-no-p 'y-or-n-p)
 
-;;setup the default font 
+;;setup the default font
 ;;(set-default-font "Monaco-12")
 ;;(set-fontset-font
 ;;    (frame-parameter nil 'font)
@@ -70,7 +70,7 @@
 (setq frame-title-format "emacs@%b")
 
 ;;delete the line when C-k at the beginning of line
-(setq-default kill-whole-line t) 
+(setq-default kill-whole-line t)
 
 ;;keep the cursor at the end of line when seeking vertically
 (setq track-eol t)
@@ -79,7 +79,7 @@
 (global-set-key [f6] 'mew)
 
 ;; default directory
-(setq default-directory "~/Dropbox/")
+;;(setq default-directory "~/Dropbox/")
 
 ;; show time on minibuffer
 (display-time-mode 1)

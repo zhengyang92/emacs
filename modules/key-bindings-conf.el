@@ -17,8 +17,6 @@
 (global-set-key "\C-cef" (lambda () (interactive)
                            (erc)))
 
-;;(global-set-key (kbd "C-<f4>") 'ecb-hide-ecb-windows)
-;;(global-set-key (kbd "C-<f5>") 'ecb-show-ecb-windows)
 (global-set-key "\M-n" 'scroll-up-line)
 (global-set-key "\M-p" 'scroll-down-line)
 

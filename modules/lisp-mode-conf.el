@@ -1,8 +1,4 @@
 ;clojure-mode
-
-
-(add-to-list 'load-path "~/.emacs.d/extends/slime")
-
 (setq slime-lisp-implementations
       '((cmucl ("lisp" "-quiet"))
         (sbcl ("sbcl") :coding-system utf-8-unix)

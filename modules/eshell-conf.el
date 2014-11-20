@@ -3,7 +3,6 @@
 (setq eshell-where-to-jump 'begin)
 (setq eshell-review-quick-commands nil)
 (setq eshell-smart-space-goes-to-end t)
-(setq eshell-directory-name "~/.emacs.d/extends/eshell")
 
 (defun open-eshell-in-other-buffer()
   "Open eshell in other buffer"
