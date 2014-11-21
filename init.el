@@ -3,7 +3,6 @@
 (require 'misc-conf)
 (require 'color-theme-conf)
 (require 'eshell-conf)
-(require 'orgmode-conf)
 (require 'markdown-mode-conf)
 (require 'erc-conf)
 (require 'lisp-mode-conf)
