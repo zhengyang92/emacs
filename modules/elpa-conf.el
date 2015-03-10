@@ -40,7 +40,20 @@
 (unless (package-installed-p 'exec-path-from-shell)
   (package-refresh-contents) (package-install 'exec-path-from-shell))
 
+;;slime
 (unless (package-installed-p 'slime)
   (package-refresh-contents) (package-install 'slime))
+
+;;sml-mode
+(unless (package-installed-p 'sml-mode)
+  (package-refresh-contents) (package-install 'sml-mode))
+
+;;haskell-mode
+(unless (package-installed-p 'haskell-mode)
+  (package-refresh-contents) (package-install 'haskell-mode))
+
+;;llvm-mode
+(unless (package-installed-p 'llvm-mode)
+  (package-refresh-contents) (package-install 'llvm-mode))
 
 (provide 'elpa-conf)

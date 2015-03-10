@@ -2,7 +2,7 @@
 ;;Black-Green color-theme
 (require 'color-theme)
 (color-theme-initialize)
-;;(color-theme-charcoal-black)
+;(color-theme-charcoal-black)
 ;;load color-theme, use matrix
 
 

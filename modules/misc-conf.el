@@ -17,7 +17,7 @@
 ;;(add-hook 'text-mode-hook 'turn-on-auto-fill)
 
 (global-linum-mode 1)
-(setq linum-format "%5d")
+(setq linum-format "%5d|")
 
 
 ;;yasnippet
@@ -33,7 +33,7 @@
 ;;disable scroll bar
 ;;(scroll-bar-mode -1)
 ;;(tool-bar-mode -1)
-;;(menu-bar-mode -1)
+(menu-bar-mode -1)
 
 
 ;;disable emacs startup message
