@@ -9,5 +9,6 @@
 ;(require 'auxtex-conf)
 (require 'c-mode-conf)
 (require 'key-bindings-conf)
+(require 'scheme-mode-conf)
 
 (provide 'init)
