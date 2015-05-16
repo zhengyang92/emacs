@@ -64,4 +64,8 @@
 (unless (package-installed-p 'go-mode)
   (package-refresh-contents) (package-install 'go-mode))
 
+;;cmake-mode
+(unless (package-installed-p 'cmake-mode)
+  (package-refresh-contents) (package-install 'cmake-mode))
+
 (provide 'elpa-conf)
