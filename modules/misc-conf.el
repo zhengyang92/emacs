@@ -20,8 +20,8 @@
 
 
 ;;yasnippet
-(require 'yasnippet)
-(yas-global-mode 1)
+;;(require 'yasnippet)
+;;(yas-global-mode 1)
 
 ;;cursor-type
 (setq-default cursor-type 'bar)
@@ -56,15 +56,15 @@
 ;;    (font-spec :family "Hiragino Sans GB" ))
 
 ;;ido
-(ido-mode t)
-(setq ido-enable-prefix nil
-      ido-enable-flex-matching t
-      ido-auto-merge-work-directories-length nil
-      ido-create-new-buffer 'always
-      ido-use-filename-at-point 'guess
-      ido-use-virtual-buffers t
-      ido-handle-duplicate-virtual-buffers 2
-      ido-max-prospects 10)
+;;(ido-mode t)
+;;(setq ido-enable-prefix nil
+;;      ido-enable-flex-matching t
+;;      ido-auto-merge-work-directories-length nil
+;;      ido-create-new-buffer 'always
+;;      ido-use-filename-at-point 'guess
+;;      ido-use-virtual-buffers t
+;;      ido-handle-duplicate-virtual-buffers 2
+;;      ido-max-prospects 10)
 
 
 ;;convert tab to 4 spaces

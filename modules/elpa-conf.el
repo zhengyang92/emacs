@@ -21,8 +21,8 @@
   (package-refresh-contents) (package-install 'markdown-mode))
 
 ;;yasnippet
-(unless (package-installed-p 'yasnippet)
-  (package-refresh-contents) (package-install 'yasnippet))
+;;(unless (package-installed-p 'yasnippet)
+;;  (package-refresh-contents) (package-install 'yasnippet))
 
 ;;python-mode
 ;;(unless (package-installed-p 'python-mode)
@@ -69,11 +69,19 @@
   (package-refresh-contents) (package-install 'yaml-mode))
 
 ;;ggtags
-(unless (package-installed-p 'ggtags)
-  (package-refresh-contents) (package-install 'ggtags))
+;;(unless (package-installed-p 'ggtags)
+;;  (package-refresh-contents) (package-install 'ggtags))
+
+;;helm
+(unless (package-installed-p 'helm)
+  (package-refresh-contents) (package-install 'helm))
 
 ;;cmake-mode
 (unless (package-installed-p 'cmake-mode)
   (package-refresh-contents) (package-install 'cmake-mode))
+
+(unless (package-installed-p 'nyan-mode)
+  (package-refresh-contents) (package-install 'nyan-mode))
+
 
 (provide 'elpa-conf)
