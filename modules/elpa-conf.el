@@ -72,4 +72,8 @@
 (unless (package-installed-p 'ggtags)
   (package-refresh-contents) (package-install 'ggtags))
 
+;;cmake-mode
+(unless (package-installed-p 'cmake-mode)
+  (package-refresh-contents) (package-install 'cmake-mode))
+
 (provide 'elpa-conf)

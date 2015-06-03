@@ -11,6 +11,5 @@
 (require 'scheme-mode-conf)
 (require 'cpp-mode-conf)
 (require 'ggtags-conf)
-(load-file "~/.emacs.d/extensions/ProofGeneral/generic/proof-site.el")
 
 (provide 'init)
