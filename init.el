@@ -6,9 +6,11 @@
 (require 'markdown-mode-conf)
 (require 'erc-conf)
 (require 'lisp-mode-conf)
-;(require 'auxtex-conf)
 (require 'c-mode-conf)
 (require 'key-bindings-conf)
 (require 'scheme-mode-conf)
+(require 'cpp-mode-conf)
+(require 'ggtags-conf)
+(load-file "~/.emacs.d/extensions/ProofGeneral/generic/proof-site.el")
 
 (provide 'init)

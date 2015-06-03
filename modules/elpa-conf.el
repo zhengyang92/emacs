@@ -64,4 +64,12 @@
 (unless (package-installed-p 'go-mode)
   (package-refresh-contents) (package-install 'go-mode))
 
+;;yaml-mode
+(unless (package-installed-p 'yaml-mode)
+  (package-refresh-contents) (package-install 'yaml-mode))
+
+;;ggtags
+(unless (package-installed-p 'ggtags)
+  (package-refresh-contents) (package-install 'ggtags))
+
 (provide 'elpa-conf)
