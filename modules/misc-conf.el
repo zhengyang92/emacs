@@ -1,4 +1,3 @@
-(add-to-list 'load-path "~/.emacs.d/extends/misc/")
 (require 'zencoding-mode)
 (add-hook 'sgml-mode-hook 'zencoding-mode) ;; Auto-start on any markup modes
 
@@ -31,9 +30,16 @@
 (setq initial-scratch-message nil)
 
 ;;disable scroll bar
-;;(scroll-bar-mode -1)
-;;(tool-bar-mode -1)
-(menu-bar-mode -1)
+(if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1)) ; turn off
+(if (fboundp 'horizontal-scroll-bar-mode) (horizontal-scroll-bar-mode -1)) ; turn off scrollbar
+(if (fboundp 'tool-bar-mode) (tool-bar-mode -1)) ; turn off toolbar
+(if (fboundp 'menu-bar-mode) (menu-bar-mode -1)) ; turn off menubar
+
+(add-hook 'after-make-frame-functions
+          '(lambda (frame)
+             (modify-frame-parameters frame
+                                      '((vertical-scroll-bars . nil)
+                                        (horizontal-scroll-bars . nil)))))
 
 
 ;;disable emacs startup message

@@ -1,8 +1,8 @@
 ;;color-theme
 ;;Black-Green color-theme
-(require 'color-theme)
-(color-theme-initialize)
-;(color-theme-charcoal-black)
+;;(require 'color-theme)
+;;(color-theme-initialize)
+;;(color-theme-charcoal-black)
 ;;load color-theme, use matrix
 
 
@@ -10,5 +10,7 @@
 ;;(require 'color-theme-solarized)
 ;;(color-theme-solarized-light)
 
+(require 'monochrome-theme-conf)
+;;(load-theme 'monochrome)
 
 (provide 'color-theme-conf)

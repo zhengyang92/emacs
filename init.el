@@ -1,4 +1,5 @@
 (add-to-list 'load-path "~/.emacs.d/modules/")
+(add-to-list 'load-path "~/.emacs.d/custom/")
 (require 'elpa-conf)
 (require 'misc-conf)
 (require 'color-theme-conf)
