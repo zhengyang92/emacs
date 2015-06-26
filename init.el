@@ -11,8 +11,9 @@
 (require 'key-bindings-conf)
 (require 'scheme-mode-conf)
 (require 'cpp-mode-conf)
-;;(require 'ggtags-conf)
 (require 'ui-conf)
 (require 'helm-conf)
+(require 'helm-gtags-conf)
+(require 'company-mode-conf)
 
 (provide 'init)

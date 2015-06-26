@@ -68,13 +68,12 @@
 (unless (package-installed-p 'yaml-mode)
   (package-refresh-contents) (package-install 'yaml-mode))
 
-;;ggtags
-;;(unless (package-installed-p 'ggtags)
-;;  (package-refresh-contents) (package-install 'ggtags))
-
 ;;helm
 (unless (package-installed-p 'helm)
   (package-refresh-contents) (package-install 'helm))
+
+(unless (package-installed-p 'helm-gtags)
+  (package-refresh-contents) (package-install 'helm-gtags))
 
 ;;cmake-mode
 (unless (package-installed-p 'cmake-mode)
@@ -83,5 +82,15 @@
 (unless (package-installed-p 'nyan-mode)
   (package-refresh-contents) (package-install 'nyan-mode))
 
+;;company
+(unless (package-installed-p 'company)
+  (package-refresh-contents) (package-install 'company))
+
+;;company-c-headers
+(unless (package-installed-p 'company-c-headers)
+  (package-refresh-contents) (package-install 'company-c-headers))
+
+(unless (package-installed-p 'function-args)
+  (package-refresh-contents) (package-install 'function-args))
 
 (provide 'elpa-conf)
