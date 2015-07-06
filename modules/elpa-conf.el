@@ -93,4 +93,7 @@
 (unless (package-installed-p 'function-args)
   (package-refresh-contents) (package-install 'function-args))
 
+(unless (package-installed-p 'tuareg)
+  (package-refresh-contents) (package-install 'tuareg))
+
 (provide 'elpa-conf)
