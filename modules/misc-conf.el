@@ -55,18 +55,6 @@
 ;;    'han
 ;;    (font-spec :family "Hiragino Sans GB" ))
 
-;;ido
-;;(ido-mode t)
-;;(setq ido-enable-prefix nil
-;;      ido-enable-flex-matching t
-;;      ido-auto-merge-work-directories-length nil
-;;      ido-create-new-buffer 'always
-;;      ido-use-filename-at-point 'guess
-;;      ido-use-virtual-buffers t
-;;      ido-handle-duplicate-virtual-buffers 2
-;;      ido-max-prospects 10)
-
-
 ;;convert tab to 4 spaces
 (setq-default indent-tabs-mode nil)
 (setq default-tab-width 4)
@@ -80,16 +68,6 @@
 
 ;;keep the cursor at the end of line when seeking vertically
 (setq track-eol t)
-
-;;key-bindings
-(global-set-key [f6] 'mew)
-
-;; default directory
-;;(setq default-directory "~/Dropbox/")
-
-;; show time on minibuffer
-(display-time-mode 1)
-(setq display-time-24hr-format t)
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
