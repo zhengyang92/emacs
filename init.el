@@ -1,6 +1,7 @@
 (add-to-list 'load-path "~/.emacs.d/modules/")
 (add-to-list 'load-path "~/.emacs.d/custom/")
 (require 'elpa-conf)
+(require 'org-mode-conf)
 (require 'misc-conf)
 (require 'color-theme-conf)
 (require 'eshell-conf)
@@ -15,5 +16,6 @@
 (require 'helm-conf)
 (require 'helm-gtags-conf)
 (require 'company-mode-conf)
+(require 'haskell-mode-conf)
 
 (provide 'init)
