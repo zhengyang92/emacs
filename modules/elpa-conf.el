@@ -52,6 +52,17 @@
 (unless (package-installed-p 'haskell-mode)
   (package-refresh-contents) (package-install 'haskell-mode))
 
+;;haskell-indentation 2n
+(unless (package-installed-p 'hi2)
+  (package-refresh-contents) (package-install 'hi2))
+
+;;structured-haskell-mode
+(unless (package-installed-p 'shm)
+  (package-refresh-contents) (package-install 'shm))
+
+(unless (package-installed-p 'company-ghc)
+  (package-refresh-contents) (package-install 'company-ghc))
+
 ;;llvm-mode
 (unless (package-installed-p 'llvm-mode)
   (package-refresh-contents) (package-install 'llvm-mode))
