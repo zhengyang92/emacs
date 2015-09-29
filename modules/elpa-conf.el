@@ -107,4 +107,16 @@
 (unless (package-installed-p 'tuareg)
   (package-refresh-contents) (package-install 'tuareg))
 
+;;clojure-mode
+(unless (package-installed-p 'clojure-mode)
+  (package-refresh-contents) (package-install 'clojure-mode))
+
+;;rust-mode
+(unless (package-installed-p 'rust-mode)
+  (package-refresh-contents) (package-install 'rust-mode))
+
+;;fsharp-mode
+(unless (package-installed-p 'fsharp-mode)
+  (package-refresh-contents) (package-install 'fsharp-mode))
+
 (provide 'elpa-conf)
