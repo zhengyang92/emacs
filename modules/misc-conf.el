@@ -71,4 +71,7 @@
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
+;; ESS for R
+(require 'ess-site)
+
 (provide 'misc-conf)

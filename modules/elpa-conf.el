@@ -119,4 +119,8 @@
 (unless (package-installed-p 'fsharp-mode)
   (package-refresh-contents) (package-install 'fsharp-mode))
 
+;;ESS for R
+(unless (package-installed-p 'ess)
+  (package-refresh-contents) (package-install 'ess))
+
 (provide 'elpa-conf)
