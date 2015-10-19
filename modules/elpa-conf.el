@@ -123,4 +123,8 @@
 (unless (package-installed-p 'ess)
   (package-refresh-contents) (package-install 'ess))
 
+;;erlang
+(unless (package-installed-p 'erlang)
+  (package-refresh-contents) (package-install 'erlang))
+
 (provide 'elpa-conf)
