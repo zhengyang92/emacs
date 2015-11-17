@@ -83,6 +83,18 @@
 (unless (package-installed-p 'helm)
   (package-refresh-contents) (package-install 'helm))
 
+(unless (package-installed-p 'helm-ls-git)
+  (package-refresh-contents) (package-install 'helm-ls-git))
+
+(unless (package-installed-p 'helm-ls-hg)
+  (package-refresh-contents) (package-install 'helm-ls-hg))
+
+(unless (package-installed-p 'helm-descbinds)
+  (package-refresh-contents) (package-install 'helm-descbinds))
+
+(unless (package-installed-p 'helm-firefox)
+  (package-refresh-contents) (package-install 'helm-firefox))
+
 (unless (package-installed-p 'helm-gtags)
   (package-refresh-contents) (package-install 'helm-gtags))
 
@@ -126,5 +138,8 @@
 ;;erlang
 (unless (package-installed-p 'erlang)
   (package-refresh-contents) (package-install 'erlang))
+
+;;(unless (package-installed-p 'powerline)
+;;  (package-refresh-contents) (package-install 'powerline))
 
 (provide 'elpa-conf)

@@ -18,42 +18,9 @@
 (global-linum-mode 1)
 (setq linum-format "%5d|")
 
-
 ;;yasnippet
 ;;(require 'yasnippet)
 ;;(yas-global-mode 1)
-
-;;cursor-type
-(setq-default cursor-type 'bar)
-
-;;initial scratch
-(setq initial-scratch-message nil)
-
-;;disable scroll bar
-(if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1)) ; turn off
-(if (fboundp 'horizontal-scroll-bar-mode) (horizontal-scroll-bar-mode -1)) ; turn off scrollbar
-(if (fboundp 'tool-bar-mode) (tool-bar-mode -1)) ; turn off toolbar
-(if (fboundp 'menu-bar-mode) (menu-bar-mode -1)) ; turn off menubar
-
-(add-hook 'after-make-frame-functions
-          '(lambda (frame)
-             (modify-frame-parameters frame
-                                      '((vertical-scroll-bars . nil)
-                                        (horizontal-scroll-bars . nil)))))
-
-
-;;disable emacs startup message
-(setq inhibit-startup-message t)
-
-;;turn all yes-or-no into y-or-n
-(fset 'yes-or-no-p 'y-or-n-p)
-
-;;setup the default font
-;;(set-default-font "Monaco-12")
-;;(set-fontset-font
-;;    (frame-parameter nil 'font)
-;;    'han
-;;    (font-spec :family "Hiragino Sans GB" ))
 
 ;;convert tab to 4 spaces
 (setq-default indent-tabs-mode nil)

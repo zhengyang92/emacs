@@ -1,5 +1,6 @@
 (add-to-list 'load-path "~/.emacs.d/modules/")
 (add-to-list 'load-path "~/.emacs.d/custom/")
+(add-to-list 'load-path "~/.emacs.d/packages/")
 (require 'elpa-conf)
 (require 'org-mode-conf)
 (require 'misc-conf)
