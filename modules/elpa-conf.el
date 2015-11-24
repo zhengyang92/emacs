@@ -139,6 +139,9 @@
 (unless (package-installed-p 'erlang)
   (package-refresh-contents) (package-install 'erlang))
 
+(unless (package-installed-p 'smart-mode-line)
+  (package-refresh-contents) (package-install 'smart-mode-line))
+
 ;;(unless (package-installed-p 'powerline)
 ;;  (package-refresh-contents) (package-install 'powerline))
 
