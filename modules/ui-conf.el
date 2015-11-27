@@ -21,7 +21,7 @@
 ;;    (powerline-percent 'right nil powerline-color1)
 ;;    (powerline-make-text "  " nil)))))
 
-(setq sml/theme 'respectful)
+(setq sml/theme nil)
 (setq sml/no-confirm-load-theme t)
 (sml/setup)
 
