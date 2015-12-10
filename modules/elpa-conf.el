@@ -145,4 +145,8 @@
 ;;(unless (package-installed-p 'powerline)
 ;;  (package-refresh-contents) (package-install 'powerline))
 
+;; z3-mode
+(unless (package-installed-p 'z3-mode)
+  (package-refresh-contents) (package-install 'z3-mode))
+
 (provide 'elpa-conf)
