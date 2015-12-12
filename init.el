@@ -19,6 +19,7 @@
 (require 'company-mode-conf)
 (require 'haskell-mode-conf)
 (require 'python-mode-conf)
+(require 'smart-line-mode-conf)
 (load-file "~/.emacs.d/ProofGeneral/generic/proof-site.el")
 
 (provide 'init)

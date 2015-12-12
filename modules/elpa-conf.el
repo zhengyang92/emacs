@@ -149,4 +149,8 @@
 (unless (package-installed-p 'z3-mode)
   (package-refresh-contents) (package-install 'z3-mode))
 
+;; cuda-mode
+(unless (package-installed-p 'cuda-mode)
+  (package-refresh-contents) (package-install 'cuda-mode))
+
 (provide 'elpa-conf)
