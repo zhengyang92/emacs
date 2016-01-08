@@ -149,8 +149,15 @@
 (unless (package-installed-p 'z3-mode)
   (package-refresh-contents) (package-install 'z3-mode))
 
+(unless (package-installed-p 'elixir-mode)
+  (package-refresh-contents) (package-install 'elixir-mode))
+
 ;; cuda-mode
 (unless (package-installed-p 'cuda-mode)
   (package-refresh-contents) (package-install 'cuda-mode))
+
+;; auctex
+(unless (package-installed-p 'auctex)
+  (package-refresh-contents) (package-install 'auctex))
 
 (provide 'elpa-conf)
