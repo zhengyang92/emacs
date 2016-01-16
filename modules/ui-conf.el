@@ -21,9 +21,7 @@
 ;;    (powerline-percent 'right nil powerline-color1)
 ;;    (powerline-make-text "  " nil)))))
 
-(setq sml/theme nil)
-(setq sml/no-confirm-load-theme t)
-(sml/setup)
+
 
 ;;disable scroll bar
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1)) ; turn off
@@ -36,7 +34,6 @@
              (modify-frame-parameters frame
                                       '((vertical-scroll-bars . nil)
                                         (horizontal-scroll-bars . nil)))))
-
 ;;cursor-type
 (setq-default cursor-type 'bar)
 
