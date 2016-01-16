@@ -50,7 +50,9 @@
 (fset 'yes-or-no-p 'y-or-n-p)
 
 ;;setup the default font
-;;(set-default-font "Monaco-12")
+(if (eq system-type 'darwin)
+    (set-default-font "Monaco-14")
+)
 ;;(set-fontset-font
 ;;    (frame-parameter nil 'font)
 ;;    'han
