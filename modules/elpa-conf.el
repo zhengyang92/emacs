@@ -160,4 +160,8 @@
 (unless (package-installed-p 'auctex)
   (package-refresh-contents) (package-install 'auctex))
 
+;; header2
+(unless (package-installed-p 'header2)
+  (package-refresh-contents) (package-install 'header2))
+
 (provide 'elpa-conf)
