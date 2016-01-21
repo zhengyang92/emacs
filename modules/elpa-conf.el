@@ -164,4 +164,8 @@
 (unless (package-installed-p 'header2)
   (package-refresh-contents) (package-install 'header2))
 
+;; magit
+(unless (package-installed-p 'magit)
+  (package-refresh-contents) (package-install 'magit))
+
 (provide 'elpa-conf)
