@@ -168,4 +168,7 @@
 (unless (package-installed-p 'magit)
   (package-refresh-contents) (package-install 'magit))
 
+(unless (package-installed-p 'lua-mode)
+  (package-refresh-contents) (package-install 'lua-mode))
+
 (provide 'elpa-conf)
