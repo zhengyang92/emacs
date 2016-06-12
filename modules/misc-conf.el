@@ -36,8 +36,6 @@
 ;;keep the cursor at the end of line when seeking vertically
 (setq track-eol t)
 
-(add-hook 'before-save-hook 'delete-trailing-whitespace)
-
 ;; ESS for R
 (require 'ess-site)
 
