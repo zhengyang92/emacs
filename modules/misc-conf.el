@@ -1,5 +1,6 @@
 (require 'zencoding-mode)
-(add-hook 'sgml-mode-hook 'zencoding-mode) ;; Auto-start on any markup modes
+;; Auto-start on any markup modes
+(add-hook 'sgml-mode-hook 'zencoding-mode)
 
 ;;winner-mode
 (when (fboundp 'winner-mode)
@@ -38,5 +39,9 @@
 
 ;; ESS for R
 (require 'ess-site)
+
+;; fci-mode (80 column indicator)
+(add-hook 'after-change-major-mode-hook 'fci-mode)
+(setq-default fill-column 80)
 
 (provide 'misc-conf)
