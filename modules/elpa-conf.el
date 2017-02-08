@@ -174,4 +174,7 @@
 (unless (package-installed-p 'fill-column-indicator)
   (package-refresh-contents) (package-install 'fill-column-indicator))
 
+(unless (package-installed-p 'sr-speedbar)
+  (package-refresh-contents) (package-install 'sr-speedbar))
+
 (provide 'elpa-conf)
