@@ -177,4 +177,7 @@
 (unless (package-installed-p 'sr-speedbar)
   (package-refresh-contents) (package-install 'sr-speedbar))
 
+(unless (package-installed-p 'scala-mode)
+  (package-refresh-contents) (package-install 'scala-mode))
+
 (provide 'elpa-conf)
