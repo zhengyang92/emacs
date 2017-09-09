@@ -180,4 +180,7 @@
 (unless (package-installed-p 'scala-mode)
   (package-refresh-contents) (package-install 'scala-mode))
 
+(unless (package-installed-p 'idris-mode)
+  (package-refresh-contents) (package-install 'idris-mode))
+
 (provide 'elpa-conf)
