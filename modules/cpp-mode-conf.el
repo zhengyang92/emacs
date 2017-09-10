@@ -2,8 +2,13 @@
 (add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
 ; style I want to use in c++ mode
 
-(add-hook 'c-mode-common-hook 'google-set-c-style)
-(add-hook 'c-mode-common-hook 'google-make-newline-indent)
+(setq-default c++-indent-level 2)
+(setq-default c-basic-offset 2)
+(setq-default fill-column 80)
+(setq-default indent-tabs-mode nil)
+
+;;(add-hook 'c-mode-common-hook 'google-set-c-style)
+;;(add-hook 'c-mode-common-hook 'google-make-newline-indent)
 
 (require 'cc-mode)
 (require 'semantic)
