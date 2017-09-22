@@ -1,14 +1,14 @@
-(require 'zencoding-mode)
+;;(require 'zencoding-mode)
 ;; Auto-start on any markup modes
-(add-hook 'sgml-mode-hook 'zencoding-mode)
+;;(add-hook 'sgml-mode-hook 'zencoding-mode)
 
 ;;winner-mode
 (when (fboundp 'winner-mode)
 (winner-mode)
 
 ;;eshell-mode path
-(require 'exec-path-from-shell)
-(exec-path-from-shell-initialize)
+;;(require 'exec-path-from-shell)
+;;(exec-path-from-shell-initialize)
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
 
@@ -38,7 +38,7 @@
 (setq track-eol t)
 
 ;; ESS for R
-(require 'ess-site)
+;;(require 'ess-site)
 
 ;; fci-mode (80 column indicator)
 (add-hook 'after-change-major-mode-hook 'fci-mode)
