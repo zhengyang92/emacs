@@ -9,8 +9,8 @@
 ;;eshell-mode path
 ;;(require 'exec-path-from-shell)
 ;;(exec-path-from-shell-initialize)
-(when (memq window-system '(mac ns))
-  (exec-path-from-shell-initialize))
+;(when (memq window-system '(mac ns))
+;  (exec-path-from-shell-initialize))
 
 (windmove-default-keybindings))
 (setq default-major-mode 'text-mode)
