@@ -37,8 +37,8 @@
 ;;  (package-refresh-contents) (package-install 'zencoding-mode))
 
 ;;exec-path-from-shell
-;;(unless (package-installed-p 'exec-path-from-shell)
-;;  (package-refresh-contents) (package-install 'exec-path-from-shell))
+(unless (package-installed-p 'exec-path-from-shell)
+  (package-refresh-contents) (package-install 'exec-path-from-shell))
 
 ;;slime
 ;;(unless (package-installed-p 'slime)
