@@ -183,4 +183,7 @@
 (unless (package-installed-p 'idris-mode)
   (package-refresh-contents) (package-install 'idris-mode))
 
+(unless (package-installed-p 'boogie-friends)
+  (package-refresh-contents) (package-install 'boogie-friends))
+
 (provide 'elpa-conf)
