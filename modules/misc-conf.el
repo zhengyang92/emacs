@@ -44,4 +44,6 @@
 (add-hook 'after-change-major-mode-hook 'fci-mode)
 (setq-default fill-column 80)
 
+(global-set-key (kbd "C-h") 'delete-backward-char)
 (provide 'misc-conf)
+
