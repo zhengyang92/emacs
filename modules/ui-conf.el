@@ -48,7 +48,7 @@
 
 ;;setup the default font
 (if (eq system-type 'darwin)
-    (set-default-font "Monaco-14")
+    (set-default-font "Monaco-12")
 )
 ;;(set-fontset-font
 ;;    (frame-parameter nil 'font)
