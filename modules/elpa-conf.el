@@ -186,7 +186,7 @@
 (unless (package-installed-p 'boogie-friends)
   (package-refresh-contents) (package-install 'boogie-friends))
 
-(unless (package-installed-p 'swift-friends)
-  (package-refresh-contents) (package-install 'swift-friends))
+(unless (package-installed-p 'swift-mode)
+  (package-refresh-contents) (package-install 'swift-mode))
 
 (provide 'elpa-conf)
