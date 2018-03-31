@@ -1,3 +1,5 @@
+(package-initialize)
+
 (add-to-list 'load-path "~/.emacs.d/modules/")
 (add-to-list 'load-path "~/.emacs.d/custom/")
 (add-to-list 'load-path "~/.emacs.d/packages/")
@@ -23,6 +25,8 @@
 ;;(require 'magit-conf)
 ;;(require 'gnus-conf)
 (require 'javacc-mode)
+(require 'flycheck-conf)
 (load-file "~/.emacs.d/ProofGeneral/generic/proof-site.el")
 
 (provide 'init)
+;;; init.el ends here

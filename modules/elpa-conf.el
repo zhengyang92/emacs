@@ -189,4 +189,7 @@
 (unless (package-installed-p 'swift-mode)
   (package-refresh-contents) (package-install 'swift-mode))
 
+(unless (package-installed-p 'flycheck)
+  (package-refresh-contents) (package-install 'flycheck))
+
 (provide 'elpa-conf)
