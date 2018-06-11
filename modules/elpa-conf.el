@@ -63,10 +63,6 @@
 (unless (package-installed-p 'company-ghc)
   (package-refresh-contents) (package-install 'company-ghc))
 
-;;llvm-mode
-(unless (package-installed-p 'llvm-mode)
-  (package-refresh-contents) (package-install 'llvm-mode))
-
 ;;paredit
 (unless (package-installed-p 'paredit)
   (package-refresh-contents) (package-install 'paredit))
@@ -161,8 +157,8 @@
   (package-refresh-contents) (package-install 'auctex))
 
 ;; header2
-(unless (package-installed-p 'header2)
-  (package-refresh-contents) (package-install 'header2))
+;;(unless (package-installed-p 'header2)
+;;  (package-refresh-contents) (package-install 'header2))
 
 ;; magit
 ;;(unless (package-installed-p 'magit)
