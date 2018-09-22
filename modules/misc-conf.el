@@ -51,5 +51,7 @@
 (setq-default fill-column 80)
 
 (global-set-key (kbd "C-h") 'delete-backward-char)
+
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 (provide 'misc-conf)
 
