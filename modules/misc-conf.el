@@ -25,10 +25,6 @@
 (add-hook 'swift-mode-hook
           (lambda () (add-to-list 'write-file-functions 'delete-trailing-whitespace)))
 
-;;yasnippet
-;;(require 'yasnippet)
-;;(yas-global-mode 1)
-
 ;;convert tab to 4 spaces
 (setq-default indent-tabs-mode nil)
 (setq default-tab-width 4)
