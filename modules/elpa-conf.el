@@ -188,4 +188,7 @@
 (unless (package-installed-p 'flycheck)
   (package-refresh-contents) (package-install 'flycheck))
 
+(unless (package-installed-p 'proof-general)
+  (package-refresh-contents) (package-install 'proof-general))
+
 (provide 'elpa-conf)

@@ -27,6 +27,6 @@
 (require 'javacc-mode)
 (require 'flycheck-conf)
 (require 'llvm-mode)
-(load-file "~/.emacs.d/ProofGeneral/generic/proof-site.el")
+;(load-file "~/.emacs.d/ProofGeneral/generic/proof-site.el")
 
 (provide 'init)
