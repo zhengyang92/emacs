@@ -8,14 +8,6 @@
 ;(unless (package-installed-p 'sbt-mode)
 ;  (package-refresh-contents) (package-install 'sbt-mode))
 
-;;color-theme
-(unless (package-installed-p 'color-theme)
-  (package-refresh-contents) (package-install 'color-theme))
-
-;;color-theme-solarized
-(unless (package-installed-p 'color-theme-solarized)
-  (package-refresh-contents) (package-install 'color-theme-solarized))
-
 ;;markdown-mode
 ;(unless (package-installed-p 'markdown-mode)
 ;  (package-refresh-contents) (package-install 'markdown-mode))
