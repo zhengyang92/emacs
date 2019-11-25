@@ -37,23 +37,23 @@
 ;;  (package-refresh-contents) (package-install 'slime))
 
 ;;sml-mode
-(unless (package-installed-p 'sml-mode)
-  (package-refresh-contents) (package-install 'sml-mode))
+;(unless (package-installed-p 'sml-mode)
+;  (package-refresh-contents) (package-install 'sml-mode))
 
 ;;haskell-mode
-(unless (package-installed-p 'haskell-mode)
-  (package-refresh-contents) (package-install 'haskell-mode))
+;(unless (package-installed-p 'haskell-mode)
+;  (package-refresh-contents) (package-install 'haskell-mode))
 
 ;;haskell-indentation 2n
-(unless (package-installed-p 'hi2)
-  (package-refresh-contents) (package-install 'hi2))
+;(unless (package-installed-p 'hi2)
+;  (package-refresh-contents) (package-install 'hi2))
 
 ;;structured-haskell-mode
-(unless (package-installed-p 'shm)
-  (package-refresh-contents) (package-install 'shm))
+;(unless (package-installed-p 'shm)
+;  (package-refresh-contents) (package-install 'shm))
 
-(unless (package-installed-p 'company-ghc)
-  (package-refresh-contents) (package-install 'company-ghc))
+;(unless (package-installed-p 'company-ghc)
+;  (package-refresh-contents) (package-install 'company-ghc))
 
 ;;paredit
 (unless (package-installed-p 'paredit)
@@ -116,8 +116,8 @@
   (package-refresh-contents) (package-install 'rust-mode))
 
 ;;fsharp-mode
-(unless (package-installed-p 'fsharp-mode)
-  (package-refresh-contents) (package-install 'fsharp-mode))
+;(unless (package-installed-p 'fsharp-mode)
+;  (package-refresh-contents) (package-install 'fsharp-mode))
 
 ;;ESS for R
 ;;(unless (package-installed-p 'ess)
@@ -141,8 +141,8 @@
 ;;  (package-refresh-contents) (package-install 'elixir-mode))
 
 ;; cuda-mode
-(unless (package-installed-p 'cuda-mode)
-  (package-refresh-contents) (package-install 'cuda-mode))
+;(unless (package-installed-p 'cuda-mode)
+;  (package-refresh-contents) (package-install 'cuda-mode))
 
 ;; auctex
 (unless (package-installed-p 'auctex)
