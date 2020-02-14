@@ -145,8 +145,8 @@
 ;  (package-refresh-contents) (package-install 'cuda-mode))
 
 ;; auctex
-(unless (package-installed-p 'auctex)
-  (package-refresh-contents) (package-install 'auctex))
+;(unless (package-installed-p 'auctex)
+;  (package-refresh-contents) (package-install 'auctex))
 
 ;; header2
 ;;(unless (package-installed-p 'header2)

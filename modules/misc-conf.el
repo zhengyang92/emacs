@@ -22,8 +22,8 @@
 
 (setq swift-mode:basic-offset 2)
 
-;(add-hook 'swift-mode-hook
-;          (lambda () (add-to-list 'write-file-functions 'delete-trailing-whitespace)))
+(add-hook 'swift-mode-hook
+          (lambda () (add-to-list 'write-file-functions 'delete-trailing-whitespace)))
 
 ;;convert tab to 4 spaces
 (setq-default indent-tabs-mode nil)
