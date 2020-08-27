@@ -49,4 +49,6 @@
 (global-set-key (kbd "C-h") 'delete-backward-char)
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+(setq column-number-mode t)
 (provide 'misc-conf)

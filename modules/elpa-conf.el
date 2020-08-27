@@ -186,3 +186,4 @@
 (unless (package-installed-p 'racket-mode)
   (package-refresh-contents) (package-install 'racket-mode))
 (provide 'elpa-conf)
+;;; elpa-conf.el ends here
