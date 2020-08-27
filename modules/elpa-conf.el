@@ -141,8 +141,8 @@
 ;;  (package-refresh-contents) (package-install 'elixir-mode))
 
 ;; cuda-mode
-;(unless (package-installed-p 'cuda-mode)
-;  (package-refresh-contents) (package-install 'cuda-mode))
+(unless (package-installed-p 'cuda-mode)
+  (package-refresh-contents) (package-install 'cuda-mode))
 
 ;; auctex
 ;(unless (package-installed-p 'auctex)
