@@ -17,7 +17,7 @@
 ;;(add-hook 'text-mode-hook 'turn-on-auto-fill)
 
 ;(global-linum-mode 1)
-;(setq linum-format "%5d|")
+(setq linum-format "%5d|")
 
 
 (setq swift-mode:basic-offset 2)
