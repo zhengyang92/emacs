@@ -16,8 +16,8 @@
 (setq default-major-mode 'text-mode)
 ;;(add-hook 'text-mode-hook 'turn-on-auto-fill)
 
-(global-linum-mode 1)
-(setq linum-format "%5d|")
+;(global-linum-mode 1)
+;(setq linum-format "%5d|")
 
 
 (setq swift-mode:basic-offset 2)
@@ -43,8 +43,8 @@
 ;;(require 'ess-site)
 
 ;; fci-mode (80 column indicator)
-(add-hook 'after-change-major-mode-hook 'fci-mode)
-(setq-default fill-column 80)
+;(add-hook 'after-change-major-mode-hook 'fci-mode)
+;(setq-default fill-column 80)
 
 (global-set-key (kbd "C-h") 'delete-backward-char)
 
