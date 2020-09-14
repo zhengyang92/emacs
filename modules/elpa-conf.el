@@ -8,6 +8,9 @@
 ;(unless (package-installed-p 'sbt-mode)
 ;  (package-refresh-contents) (package-install 'sbt-mode))
 
+(unless (package-installed-p 'zenburn-theme)
+  (package-refresh-contents) (package-install 'zenburn-theme))
+
 ;;markdown-mode
 ;(unless (package-installed-p 'markdown-mode)
 ;  (package-refresh-contents) (package-install 'markdown-mode))
