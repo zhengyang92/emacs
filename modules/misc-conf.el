@@ -16,7 +16,7 @@
 (setq default-major-mode 'text-mode)
 ;;(add-hook 'text-mode-hook 'turn-on-auto-fill)
 
-;(global-linum-mode 1)
+(global-linum-mode 1)
 (setq linum-format "%5d|")
 
 
